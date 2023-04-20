@@ -5,5 +5,152 @@
 }
 body{
     width: 100%;
-    height: 500px;
+    /* height: 500px; */
 }
+
+.form-logos{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 40rem;
+    padding: 1rem 6rem;
+
+    
+}
+
+.flex-item{
+    /* margin: 0 auto; */
+    width: auto;
+    margin: 30px;
+    width: 40%;
+}
+
+.form-div{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.logos-div{
+    border: 2px solid green;
+    
+}
+
+.grid-container{
+    /* border: 2px solid blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    
+}
+
+.grid-item{
+    border: 2px solid rgb(226, 212, 19);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 0; */
+}
+
+#zara{
+    width: 10rem;
+}
+.grid-item img {
+    width: 10rem;
+}
+
+#heading{
+    margin-bottom: 10px;
+}
+
+form{
+    width: 500px;
+    /* height: 400px; */
+}
+
+#conatct-form{
+    width: 100%;
+}
+
+#conatct-form input {
+    width: 90%;
+    height: 45px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid #D3D3D3;
+    color: gray;
+    
+}
+
+#conatct-form textarea{
+    border: 1px solid #D3D3D3;
+    color: gray;
+    padding: 10px;
+    width: 90%;
+    height: 200px;
+    resize: none;
+}
+
+#heading{
+    margin-bottom: 20px;
+}
+
+button{
+    background-color: white;
+    border: 2px solid rgb(11, 185, 182);
+    color: rgb(11, 185, 182);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.foot{
+    background: url('./design-assets/bgk-footer.png') no-repeat;
+    background-position: center;
+    background-size:cover;
+    height: 30rem; 
+    color: white;
+    
+}
+
+
+.image-tajam{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.image-tajam p{
+    margin-left: 10px;
+    font-size: 1.8em;
+}
+.studio-image{
+    display: flex;
+    align-items: flex-start;
+}
+
+.studio-image p{
+    margin-left: 10px;
+}
+
+.foot-container{
+    display: flex;
+    justify-content: center;
+}
+ .boxes{
+    margin-top: 70px;
+    border: 1px solid white;
+    float: left;
+    width: 28%;
+    padding: 50px;
+    line-height: 1.5em;
+}
+
+.boxes h4{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
