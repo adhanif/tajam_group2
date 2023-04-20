@@ -152,13 +152,9 @@ body{
         margin-top: 10px;
         margin-bottom: 10px;
         padding: 5px 2px;
-        box-shadow: 3px 2px 0 0 rgba(0, 247, 255, 0.76);
+        border: solid 1px whitesmoke;
     }
-    .box:hover{
-        
-        box-shadow: inset 10px 0 0 0 rgb(0, 247, 255);
-        transition: 0.4s ease-out;
-    }
+    
     .header1 h2 {
         margin-top: 3%;
        color: rgb(0, 0, 0);
