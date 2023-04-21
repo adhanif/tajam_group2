@@ -11,19 +11,16 @@ body{
 .form-logos{
     border: 2px solid blue;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
+    justify-content: center;
     flex-wrap: wrap;
     height: 40rem;
     padding: 1rem 6rem;
-
-    
 }
 
 .flex-item{
-    /* margin: 0 auto; */
-    width: auto;
     margin: 30px;
-    width: 40%;
+    min-width: 600px;
 }
 
 .form-div{
@@ -32,10 +29,12 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     
+    
 }
 .logos-div{
     border: 2px solid green;
-    
+    position: relative;
+    z-index: 1;
 }
 
 .grid-container{
@@ -51,7 +50,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* padding: 0; */
+    min-width: auto;
 }
 
 #zara{
@@ -66,7 +65,7 @@ body{
 }
 
 form{
-    width: 500px;
+    min-width: 500px;
     /* height: 400px; */
 }
 
@@ -106,7 +105,10 @@ button{
     font-weight: bold;
     margin-top: 20px;
 }
-
+button:hover{
+    background-color: rgb(11, 185, 182);
+    color: white;
+}
 .foot{
     background: url('./design-assets/bgk-footer.png') no-repeat;
     background-position: center;
@@ -138,6 +140,7 @@ button{
 .foot-container{
     display: flex;
     justify-content: center;
+    max-width: 100rem;
 }
  .boxes{
     margin-top: 70px;
