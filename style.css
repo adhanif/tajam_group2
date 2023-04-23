@@ -10,12 +10,11 @@ body{
 }
 
 .form-container{
-    border: 2px solid blue;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 45px;
+    gap: 10px;
     min-height: 40rem;
 }
 
@@ -93,9 +92,11 @@ footer{
     background: url('./design-assets/bgk-footer.png') no-repeat;
     background-position: center;
     background-size:cover;
-    min-height: 30rem; 
+    min-height: 25rem; 
     color: white;
-     
+    display: flex;
+    align-items: center;
+    
 }
 
 
@@ -123,19 +124,34 @@ footer{
 }
 
 .foot-container{
-    border: 1px solid green;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid; 
+    width: 900px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    grid-auto-flow: row wrap;
+    grid-template-areas:
+    "tajam-box studio-box newsletter"
+    "foot-nav-contanier foot-nav-contanier foot-nav-contanier";
     align-items: center;
-    /* width: 950px; */
-    min-height: 18rem;
+    row-gap: 20px;
+    /* min-height: 18rem; */
     line-height: 1.5;
-    margin: 0 auto;
-    /* margin: 0; */
+    margin-left: auto;
+    margin-right: auto;
+
 }
+
+
+.studio-box{
+    grid-area: studio-box;
+}
+
+.newsletter{
+    grid-area: newsletter;
+}
+
+
  .boxes{
-    
     /* border: 1px solid white; */
     height: 200px;
     width: 300px;
@@ -146,6 +162,7 @@ footer{
     margin-bottom: 35px;
  }
  .tajam-box{
+    grid-area: tajam-box;
     margin-top: -25px;
  }
 
@@ -196,26 +213,143 @@ footer{
     height: 2rem;
 }
 
+
 .foot-nav-contanier{
-    border: 1px solid white;
+    grid-area: foot-nav-contanier;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.items-bar{
-    border: 1px solid yellow;
-}
-
-/* .foot-container{
-    border: 1px solid green;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    width: 950px;
-    min-height: 18rem;
-    line-height: 1.5;
-    margin: 0 auto;
-    margin: 0;
-} */
+}
+
+
+
+.left-bar ul{
+    display: flex;
+    list-style: none;
+}
+
+.left-bar li {
+    /* margin-right:20px; */
+    margin-left: 21px;
+}
+.left-bar a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.left-bar a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.right-bar{
+    margin-right: 43px;
+      
+}
+.right-bar p{
+    font-size: 12px;
+}
+
+@media (max-width: 900px){
+    .form-container{
+    
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 60px;
+        width: auto;
+    }
+    
+    .foot-container{
+    
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        line-height: 1.5;
+        align-items: center;
+        text-align: center;
+    }
+   
+    #heading{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .form-div{
+        margin-top: 20px;
+    }
+
+    .form-div form{
+        text-align: center;
+    }
+    .form-div button{
+        display: inline-block;
+    }
+    .boxes{
+        height: 200px;
+        width: 250px;
+        padding: 20px;
+        margin: 0;
+     }
+
+     .newsletter h4{
+        margin-bottom: 0px;
+     }
+    .foot-nav-contanier{
+       
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    .studio-image{
+        justify-content: center;
+    }
+    .studio-box{
+        justify-content: center;
+        /* margin-top: 10px; */
+    }
+    
+    .studio-box h4{
+        margin-bottom: 1px;
+    }
+    .image-tajam{
+        /* display: flex; */
+        justify-content: center;
+    }
+    .subscribe{
+        
+        justify-content: center;
+    }
+    .right-bar{
+        margin-right: 0px;
+    }
+
+    .media-logos{
+        margin-top: 1rem;
+        width: 17rem;
+        justify-content: center;
+    }
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    .left-bar a{
+        font-size: 12px;
+    }
+    .left-bar li {
+        /* margin-right:20px; */
+        margin-left: 0px;
+        padding: 5px;
+    }
+    
+}
