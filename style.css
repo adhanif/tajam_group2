@@ -297,9 +297,9 @@ hr {
     height: 40px;
     border-radius: 20px;
     background-color: rgba(1, 252, 239, 0);
-    
+    margin: auto;
     justify-content: center;
-    margin-left: 45%;
+    
     padding-top: 5px;
     border: solid 1px rgb(0, 255, 149);
     
