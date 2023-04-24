@@ -237,11 +237,11 @@ hr {
 .header1 h2 {
     margin-top: 3%;
    color: rgb(0, 0, 0);
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
 }
 .header1 p {
     color: rgb(0, 0, 0);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
     
  }
 
@@ -276,7 +276,7 @@ hr {
     background-color: rgba(110, 110, 110, 0);
     margin: 0 10px;
     border: solid 1px rgb(255, 255, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
  }
  .person1:hover{
     transform: scale(1.1);
@@ -286,11 +286,11 @@ hr {
  .header2 h2 {
     
    color: rgb(255, 255, 255);
-   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
 }
 .header2 p {
     color: rgb(255, 255, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
     
  }
  .btn{
@@ -299,7 +299,7 @@ hr {
     height: 40px;
     border-radius: 20px;
     background-color: rgba(1, 252, 239, 0);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
     justify-content: center;
     margin-left: 45%;
     padding-top: 5px;
@@ -315,7 +315,7 @@ hr {
     margin-bottom: 20px;
 }
 .section5button{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
 }
 @media screen and (max-width: 600px) {
     #grid1{
@@ -333,13 +333,13 @@ hr {
     .header1 h2 {
         margin-top: 3%;
        color: rgb(0, 0, 0);
-       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       
     }
     .header1 p {
         width: 80%;
         margin: auto;
         color: rgb(0, 0, 0);
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
         
      }
 
@@ -359,7 +359,7 @@ hr {
         background-color: rgba(110, 110, 110, 0);
         margin: 10px 10px;
         border: solid 1px rgb(255, 255, 255);
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        ;
      }
      .btn{
         margin: auto;
