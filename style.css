@@ -253,10 +253,10 @@ hr {
  }
  #wrap5{
 
-    height: fit-content;
+    min-height: 60vh;
     align-items: center;
     
-    padding-top: 5vh;
+    padding: 5vh 0;
  }
  #flexteam{
     margin-top: 4vh;
@@ -312,9 +312,7 @@ hr {
 .staffpic{
     margin-bottom: 20px;
 }
-.section5button{
-   
-}
+
 @media screen and (max-width: 600px) {
     #grid1{
         display: flex;
