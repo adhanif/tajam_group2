@@ -249,10 +249,11 @@ hr {
     text-align: center;
     color: whitesmoke;
     width: 100%;
+    
  }
  #wrap5{
 
-    height: 40vh;
+    height: fit-content;
     align-items: center;
     
     padding-top: 5vh;
