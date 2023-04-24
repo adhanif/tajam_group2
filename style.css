@@ -9,6 +9,7 @@ body{
     /* height: 500px; */
 }
 
+/* Adnan's coding */
 .form-container{
     display: flex;
     align-items: center;
@@ -351,5 +352,5 @@ footer{
         margin-left: 0px;
         padding: 5px;
     }
-    
 }
+/* Adnan's coding ends here*/
